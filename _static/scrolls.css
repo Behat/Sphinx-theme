@@ -263,7 +263,7 @@ section.documentation ol {
 section.documentation p,
 section.documentation ul,
 section.documentation ol,
-section.documentation .highlight,
+.highlight,
 section.documentation .note,
 section.documentation .tip,
 section.documentation img {
@@ -311,7 +311,7 @@ section.documentation .docutils.literal {
     -webkit-border-radius: 3px;
 }
 
-section.documentation .highlight {
+.highlight {
     margin-left:13px;
     padding:0px;
     font-size:13px !important;
@@ -324,31 +324,31 @@ section.documentation .highlight {
     position:relative;
 }
 
-section.documentation .highlight > pre {
+.highlight > pre {
     line-height:18px;
     padding-top:13px !important;
     padding-bottom:13px !important;
 }
 
-section.documentation .highlight ::-webkit-scrollbar {
+.highlight ::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
-section.documentation .highlight ::-webkit-scrollbar-track-piece  {
+.highlight ::-webkit-scrollbar-track-piece  {
     background-color: #272822;
 /*    -webkit-border-radius: 6px;*/
 }
-section.documentation .highlight ::-webkit-scrollbar-thumb:horizontal {
+.highlight ::-webkit-scrollbar-thumb:horizontal {
     background-color: #3b3d33;
 }
 
-section.documentation .highlight pre {
+.highlight pre {
     overflow-y:auto;
     padding:10px;
     padding-left:20px;
 }
 
-section.documentation .highlight:before {
+.highlight:before {
     position:absolute;
     display:block;
     content:'';
