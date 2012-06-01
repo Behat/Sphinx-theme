@@ -592,7 +592,7 @@ body > section.main > .preview dl dd .info {
 }
 
 
-.docs {
+body > section.main .docs {
     margin-top:30px;
     float:left;
     width:150px;
@@ -606,20 +606,20 @@ body > section.main > .preview dl dd .info {
     font-family: 'Trebuchet MS';
     font-size:22px !important;
 }
-.docs:hover {
+body > section.main .docs:hover {
     color:#000;
     text-decoration:underline;
 }
 
-.docs.training {
+body > section.main .docs.training {
     background:url(images/training.png) no-repeat;
 }
 
-.docs.quick-intro {
+body > section.main .docs.quick-intro {
     background:url(images/page.png) no-repeat;
 }
 
-.docs.guides {
+body > section.main .docs.guides {
     background:url(images/page_full.png) no-repeat;
 }
 
