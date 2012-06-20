@@ -46,16 +46,16 @@ body > header{
     display:block !important;
     float:left;
     margin-bottom:3px;
-	outline: 0;
-	font-weight:normal;
-	padding: 8px 18px;
-	display: block;
-	font-size:14px;
-	color: #4f4f4f;
+    outline: 0;
+    font-weight:normal;
+    padding: 8px 18px;
+    display: block;
+    font-size:14px;
+    color: #4f4f4f;
     padding-left:40px;
 }
 .button:hover {
-	text-decoration:underline;
+    text-decoration:underline;
 }
 .button.conseq:before {
   content:',';
@@ -291,11 +291,11 @@ section.documentation img {
 section.documentation a {
     color:#000;
     font-style:default;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 section.documentation a:hover {
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 section.documentation .docutils.literal {
