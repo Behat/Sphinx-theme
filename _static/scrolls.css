@@ -298,16 +298,6 @@ section.documentation a:hover {
     text-decoration:underline;
 }
 
-section.documentation p a {
-    color:#000;
-    font-style:default;
-    text-decoration:none;
-}
-
-section.documentation p a:hover {
-    text-decoration:underline;
-}
-
 section.documentation .docutils.literal {
     background:#ccc;
     color:#000;
@@ -526,4 +516,12 @@ section.documentation .tip:before {
 .documentation .highlight-gherkin pre .s {
     color:#f1f1f1;
     font-weight:normal;
+}
+
+section.documentation p a {
+    text-decoration:underline;
+}
+
+section.documentation p a:hover {
+    text-decoration:none;
 }
