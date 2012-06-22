@@ -291,11 +291,21 @@ section.documentation img {
 section.documentation a {
     color:#000;
     font-style:default;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 section.documentation a:hover {
+    text-decoration:underline;
+}
+
+section.documentation p a {
+    color:#000;
+    font-style:default;
     text-decoration:none;
+}
+
+section.documentation p a:hover {
+    text-decoration:underline;
 }
 
 section.documentation .docutils.literal {
