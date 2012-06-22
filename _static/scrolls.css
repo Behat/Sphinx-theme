@@ -525,3 +525,11 @@ section.documentation p a {
 section.documentation p a:hover {
     text-decoration:none;
 }
+
+section.documentation ul.simple a {
+    text-decoration:underline;
+}
+
+section.documentation ul.simple a:hover {
+    text-decoration:none;
+}
