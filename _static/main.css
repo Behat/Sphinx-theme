@@ -399,14 +399,14 @@ body > footer .sponsor {
   position: absolute;
   right: 70px;
   bottom: 25px;
-  width: 170px;
+  width: 230px;
 }
 body > footer .sponsor span {
   color: #b3b3b3;
   font-family: 'Lobster', arial, serif;
   font-size: 18px;
   position: absolute;
-  bottom: 0px;
+  bottom: 5px;
 }
 body > footer .sponsor a.knp {
   content: '';
@@ -414,8 +414,8 @@ body > footer .sponsor a.knp {
   text-indent: -9999px;
   float: right;
   border: none;
-  width: 72px;
-  height: 71px;
+  width: 130px;
+  height: 29px;
   background: url(images/skel/knp-logo.png);
 }
 strong {
